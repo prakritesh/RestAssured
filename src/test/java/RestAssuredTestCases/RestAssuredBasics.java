@@ -27,7 +27,7 @@ import static org.hamcrest.Matchers.*;
 
 public class RestAssuredBasics {
 	
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void firsttest() {
 
 		Response obj = RestAssured.get("https://petstore.swagger.io/v2/pet/9223127516080556901");
